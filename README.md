@@ -4,5 +4,5 @@
 ```
 poetry install
 poetry shell
-
+jupyter notebook rnd.ipynb
 ```
