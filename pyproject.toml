@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "all-cities"
+version = "0.1.0"
+description = ""
+authors = ["alexeygrachev <agrachev@cindicator.com>"]
+readme = "README.md"
+packages = [{include = "all_cities"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+pandas = "^1.5.2"
+wget = "^3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
